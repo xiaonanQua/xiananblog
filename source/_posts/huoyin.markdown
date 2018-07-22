@@ -4,8 +4,8 @@ title: "佩恩六道"
 date: 2018-7-21 23:23
 comments: true
 tags: 
-	- 动漫 
-	- 旧事
+	- 动漫
+	 
 brief: "记录最爱的火影忍者"
 reward: true
 ---
