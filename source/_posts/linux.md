@@ -9,18 +9,19 @@ tags:
 brief: '记录我老忘的linux'
 reward: true
 ---
->汇总常忘的linux命令 :smile:
-
-## tar、zip打包解压常见命令
-*1.zip解压到指定文件夹*
+>汇总在使用ubuntu时常用到的linux命令(主要是我经常忘，哈哈～) :smile:
+<!-- more -->
+# 1.tar、zip打包解压常见命令
+*a.zip解压到指定文件夹*
 ```zip
 unzip xxx.zip -d 目标文件夹（绝对路径）
 ```
-## 无法访问windows系统磁盘
->causes:应该上一次使用win系统使电脑睡眠，没有完全关机（应该是非正常关机，要解决的话可以再进一次win系统，正常关机。），这次开机进入ubuntu就出现这种情况。:wink::wink::wink:
+
+# 2.无法访问windows系统磁盘
+>causes:(首先我的电脑是双系统，这也只有双系统的情况才会发生。)
+>应该上一次使用win系统使电脑睡眠，没有完全关机（应该是非正常关机，要解决的话可以再进一次win系统，正常关机。），这次开机进入ubuntu就出现这种情况。:wink::wink::wink:
 
 **解决方法：**
-
 *a.在终端输入如下命令，查看分区挂载情况*
 ```
 sudo fdisk -l
